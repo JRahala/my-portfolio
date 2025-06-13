@@ -1,0 +1,26 @@
+:root {
+  --bg: #ffffff;
+  --text: #1e1e1e;
+  --muted: #555555;
+  --accent: #005f73;
+  --border: #cccccc;
+  --link: #003049;
+  --hover: #d62828;
+}
+
+body {
+  margin: 0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hover);
+  text-decoration: underline;
+}

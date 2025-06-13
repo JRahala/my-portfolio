@@ -1,0 +1,88 @@
+:root {
+  --text: #1e1e1e;
+  --muted: #6b6b6b;
+  --accent: #004080;
+  --border: #dddddd;
+  --hover: #c92c2c;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  font-family: 'Georgia', serif;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.gpa {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  font-size: 0.85rem;
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid var(--border);
+  color: var(--text);
+  background-color: #f8f8f8;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.entry {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.logoWrapper {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 100%;
+  max-height: 32px;
+  object-fit: contain;
+  opacity: 0.9;
+}
+
+.date {
+  width: 160px;
+  font-size: 0.85rem;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.details {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.subheading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 3rem 0 1rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.4rem;
+}
