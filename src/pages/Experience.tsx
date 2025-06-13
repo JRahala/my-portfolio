@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/Experience.module.css';
+import { Link } from 'react-router-dom';
 
 import mitLogo from '../assets/logos/mit.png';
 import princetonLogo from '../assets/logos/princeton.svg';
@@ -70,7 +71,7 @@ const Experience: React.FC = () => (
           <div className={styles.details}>
             <strong>{exp.title}</strong><br />
             <p className={styles.description}>{exp.description}</p>
-            <a href={exp.link} className={styles.linkButton}>Read more »</a>
+            <Link to={exp.link} className={styles.linkButton}>Read more »</Link>
             <div className={styles.expTags}>
               {exp.tags.map(tag => (
                 <span key={tag} className={styles.tag}>{tag}</span>
