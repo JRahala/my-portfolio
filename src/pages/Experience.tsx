@@ -71,7 +71,7 @@ const Experience: React.FC = () => (
           <div className={styles.details}>
             <strong>{exp.title}</strong><br />
             <p className={styles.description}>{exp.description}</p>
-            <Link to={exp.link} className={styles.linkButton}>Read more »</Link>
+            <Link to={`${import.meta.env.BASE_URL}${exp.link}`} className={styles.linkButton}> Read more » </Link>
             <div className={styles.expTags}>
               {exp.tags.map(tag => (
                 <span key={tag} className={styles.tag}>{tag}</span>
