@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jrahala.github.io/my-portfolio/sitemap.xml
