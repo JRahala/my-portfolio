@@ -15,9 +15,9 @@ const About: React.FC = () => (
        <img src={picture} alt="Jasamrit Rahala" className={styles.profileImage} />
       <h2 className={styles.name}>Jasamrit Rahala</h2>
       <div className={styles.links}>
-        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
-        <a href="/Jasamrit Rahala.pdf" target="_blank">Résumé</a>
+        <a href="https://github.com/JRahala" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/jasamrit-rahala/" target="_blank">LinkedIn</a>
+        <a href="https://JRahala.github.io/my-portfolio/Jasamrit Rahala.pdf" target="_blank">Résumé</a>
       </div>
     </div>
 
