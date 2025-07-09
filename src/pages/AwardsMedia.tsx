@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from '../styles/AwardsMedia.module.css';
 
-import bbcLogo from '../assets/logos/bbc.png';
+// import bbcLogo from '../assets/logos/bbc.png';
 import guardianLogo from '../assets/logos/guardian.jpg';
-import mensaLogo from '../assets/logos/mensa.png';
+// import mensaLogo from '../assets/logos/mensa.png';
 import etonLogo from '../assets/logos/eton.png';
 import timesLogo from '../assets/logos/times2.png';
 import channelfLogo from '../assets/logos/channel4.png'
