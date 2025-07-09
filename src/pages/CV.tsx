@@ -14,7 +14,7 @@ const CV: React.FC = () => {
 
       <div className={styles.links}>
         <a href={`${base}Jasamrit Rahala.pdf`} target="_blank" rel="noopener noreferrer">📄 Download Full CV (PDF)</a>
-        <a href={`${base}Jasamrit Rahala Resume.pdf`} target="_blank" rel="noopener noreferrer">📄 Download Résumé (PDF)</a>
+        <a href={`${base}Jasamrit Rahala.pdf`} target="_blank" rel="noopener noreferrer">📄 Download Résumé (PDF)</a>
       </div>
 
       <div className={styles.viewerWrapper}>

@@ -5,6 +5,8 @@ import bbcLogo from '../assets/logos/bbc.png';
 import guardianLogo from '../assets/logos/guardian.jpg';
 import mensaLogo from '../assets/logos/mensa.png';
 import etonLogo from '../assets/logos/eton.png';
+import timesLogo from '../assets/logos/times2.png';
+import channelfLogo from '../assets/logos/channel4.png'
 
 interface MediaSource {
   name: string;
@@ -23,51 +25,58 @@ interface MediaEvent {
 
 const mediaEvents: MediaEvent[] = [
   {
-    date: 'Mar 2013',
-    title: '162+ Mensa IQ Score',
-    description: 'Youngest in the UK to achieve full marks on the Mensa IQ test at age 11.',
-    sources: [
-      {
-        name: 'Mensa UK',
-        link: 'https://www.mensa.org.uk',
-        logo: mensaLogo,
-        date: 'Mar 2013',
-        description: 'Official announcement and recognition by Mensa UK of the test result and historical context.'
-      }
-    ]
+  date: 'Dec 2021',
+  title: 'Countdown Star Targets More TV Success',
+  description: 'Guardian feature on Jasamrit’s run on Channel 4 Countdown and his aspirations toward University Challenge and Mastermind.',
+  sources: [
+    {
+      name: 'The Guardian',
+      link: 'https://www.theguardian.com/tv-and-radio/2021/dec/10/countdown-star-jasamrit-rahala-17-targets-more-tv-success',
+      logo: guardianLogo,
+      date: 'Dec 10, 2021',
+      description: 'Profile covering his 100% Mensa IQ, Eton background and Countdown finals ambitions.'
+    }
+  ]
   },
   {
-    date: 'Sept 2015',
-    title: 'Child Genius Media Coverage',
-    description: 'National press coverage related to participation in Child Genius and gifted education.',
-    sources: [
-      {
-        name: 'BBC',
-        link: 'https://www.bbc.co.uk/news/education-34363829',
-        logo: bbcLogo,
-        date: 'Sept 22, 2015',
-        description: 'BBC Education segment highlighting young intellectual talents and the UK Child Genius programme.'
-      },
-      {
-        name: 'The Guardian',
-        link: 'https://www.theguardian.com/education/2016/jul/04/child-genius-profile',
-        logo: guardianLogo,
-        date: 'Jul 4, 2016',
-        description: 'Feature article in The Guardian about the cultural and academic impact of Child Genius contestants.'
-      }
-    ]
-  },
-  {
-    date: 'May 2022',
-    title: 'Dual Scholar Recognition at Eton',
-    description: 'Awarded the rare distinction of being both a King’s Scholar and a New Foundation Scholar.',
+    date: 'Nov 2021',
+    title: 'Eton’s Countdown Champion',
+    description: 'Eton College celebrates his 7‑win streak and finals qualification on Channel 4’s Countdown.',
     sources: [
       {
         name: 'Eton College',
-        link: 'https://www.etoncollege.com',
+        link: 'https://www.etoncollege.com/news-and-diary/school-news/etons-countdown-champion/',
         logo: etonLogo,
-        date: 'May 2022',
-        description: 'Eton College announcement of concurrent scholar titles and academic recognition.'
+        date: 'Nov 3, 2021',
+        description: 'College news recounting his performance and standout conundrum moments.'
+      }
+    ]
+  },
+  {
+    date: 'Oct 2021',
+    title: 'From Humble Beginnings to Countdown Finals',
+    description: 'The Times profiles his journey from a modest Slough upbringing to the heart of national quiz success.',
+    sources: [
+      {
+        name: 'The Times',
+        link: 'https://www.thetimes.com/culture/tv-radio/article/from-two-up-two-down-to-eton-and-now-teen-genius-is-in-countdown-finals-9f8hgsgfp',
+        logo: timesLogo, // replace with Times logo asset
+        date: 'Oct/Nov 2021',
+        description: 'Coverage of his background, scholarship to Eton, and strong Countdown run.'
+      }
+    ]
+  },
+  {
+    date: 'May 2015',
+    title: 'Child Genius 2015',
+    description: 'Youngest Series finalist of prime time TV show, Child Genius on Channel 4',
+    sources: [
+      { 
+        name: 'Channel 4',
+        link: 'https://www.channel4.com/press/news/child-genius',
+        logo: channelfLogo,
+        date: 'May 2015',
+        description: 'Youngest Series finalist of prime time TV show, Child Genius on Channel 4',
       }
     ]
   }

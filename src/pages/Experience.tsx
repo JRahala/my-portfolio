@@ -14,15 +14,6 @@ const skills = [
 
 const experiences = [
   {
-    logo: mitLogo,
-    date: 'May 2024 – Aug 2024',
-    title: 'Research Intern — MIT CSAIL',
-    description:
-      'Worked on aligning latent embeddings with VAEs and Procrustes under Prof. Manolis Kellis. Explored cross-domain biological datasets using unsupervised learning.',
-    tags: ['Python', 'Autoencoders', 'Machine Learning'],
-    link: '/blog/mit-csail'
-  },
-  {
     logo: princetonLogo,
     date: 'Dec 2024 – Present',
     title: 'Research Assistant — Princeton Algorithms Lab',
@@ -30,6 +21,15 @@ const experiences = [
       'Invented a lock-free concurrent ZipTree data structure with Prof. Robert Tarjan. Focused on concurrency, correctness proofs, and performance benchmarking.',
     tags: ['C++', 'Concurrency', 'Data Structures'],
     link: '/blog/princeton-ziptrees'
+  },
+  {
+    logo: mitLogo,
+    date: 'May 2024 – Aug 2024',
+    title: 'Research Intern — MIT CSAIL',
+    description:
+      'Worked on aligning latent embeddings with VAEs and Procrustes under Prof. Manolis Kellis. Explored cross-domain biological datasets using unsupervised learning.',
+    tags: ['Python', 'Autoencoders', 'Machine Learning'],
+    link: '/blog/mit-csail'
   },
   {
     logo: imperialLogo,

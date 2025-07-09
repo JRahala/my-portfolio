@@ -16,18 +16,10 @@ interface Project {
 const allProjects: Project[] = [
   {
     title: 'Concurrent Tree Engine',
-    date: 'Mar 2024',
+    date: 'Mar 2025',
     description: 'A lock-free data structure library built in C++ for fast concurrent operations.',
     tags: ['C++', 'Concurrency', 'Algorithms'],
     link: '/blog/concurrent-tree-engine',
-    logo: placeholderLogo
-  },
-  {
-    title: 'GraphQL Research Dashboard',
-    date: 'Jan 2024',
-    description: 'A real-time dashboard visualizing ML experiment metadata using GraphQL and D3.',
-    tags: ['React', 'D3.js', 'GraphQL'],
-    link: '/blog/graphql-dashboard',
     logo: placeholderLogo
   }
 ];
